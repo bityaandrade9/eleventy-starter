@@ -1,12 +1,12 @@
 {
-  "name": "eleventy-starter",
+  "name": "bfinal",
   "version": "1.0.0",
-  "description": "This is a base starter eleventy repository",
+  "description": "Bitya's Final Project",
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve --quiet"
   },
-  "author": "Chris Stein",
+  "author": "Bitya",
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.1.4",
     "js-yaml": "^3.13.1",
