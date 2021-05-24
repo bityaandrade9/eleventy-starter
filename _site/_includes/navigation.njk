@@ -1,9 +1,8 @@
-<nav class="site-nav">
+<nav>
   <ul>
-    <li><a class="nav-item nav-link" href="/"><i class="fas fa-home"></i></a></li>
-    {% set mainNav = collections.all | eleventyNavigation('main') %}
-    {%- for nav in mainNav -%}
-    <li><a class="nav-item nav-link" href="{{nav.url}}">{{nav.key}}</a></li>
-    {%- endfor -%}
-  </ul>
+  <li><a href="/index.html">Home</a></li>
+  <li><a href="/worklogo">Logo</a></li>
+  <li><a href="/bookcover">Bookcover</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
 </nav>

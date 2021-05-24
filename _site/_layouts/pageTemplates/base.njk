@@ -1,5 +1,5 @@
 ---
-siteTitle: Your Site Title Here
+siteTitle: Bitya's Personal Portfolio
 
 ---
 <!doctype html>
@@ -9,17 +9,27 @@ siteTitle: Your Site Title Here
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{siteTitle}}--{{title}}</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
     </head>
   <body>
   
-  {% include "navigation.njk" %}
-  <div class="page-container">{{ content | safe }}</div>
 
-  </body>
+  <div class="page-container">{{ content | safe }}</div>
+  <!-- FOOTER -->  
+        <footer>
+          <div class="footer-content">
+           {% include "navigation.njk" %}
+            <p class="credit">&copy; Copyright 2020 Bitya Andrade.<br>Designed and Developed by Bitya Andrade.</p>
+            <a class="social" href="https://www.linkedin.com/in/bitya-andrade-277531176"target="_blank">Linkedin</a>
+            <!--href="www.linkedin.com/in/bitya-andrade-277531176-->
+          </div>
+        </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="/js/main.js"></script>
+  </body>
 </html>
 
 
