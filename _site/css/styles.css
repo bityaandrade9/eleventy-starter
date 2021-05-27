@@ -203,7 +203,7 @@ about p a{
 
 /*WORK PAGE---------------*/
 .logo-work{
-  height: 300px;
+  /* height: 300px; */
   padding: 2% 0;
 }
 
@@ -214,8 +214,7 @@ about p a{
 .work-page{
   /*display: block;*/
   /*float: center;*/
-  margin-left: auto;
-  margin-right: auto;
+  margin: 3rem auto;
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
@@ -229,6 +228,7 @@ about p a{
   margin-left: auto;
   margin-right: auto;
   padding: 4% 8%;
+  max-width: 650px;
 }
 
 .work-page-content p{
@@ -248,7 +248,7 @@ about p a{
   margin-left: auto;
   margin-right: auto;
   width: 500px;
-  height: 500px;
+  /* height: 500px; */
   overflow: hidden;
 }
 
@@ -258,8 +258,8 @@ about p a{
 }
 
 /*BOOK PAGE---------------*/
-.COVER-work{
-  height: 300px;
+.cover-work{
+  /* height: 300px; */
   padding: 2% 0;
 }
 
