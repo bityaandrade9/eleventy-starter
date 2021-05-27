@@ -31,29 +31,31 @@ tags:
   <h4>My Work</h4>
   <div class="homegrid">
     <div class="image-area-left">
-    <img src="/images/logo.jpg"/>
+      <img src="/images/logo.jpg"/>
     </div>
-    <div class="text-box">
-      <div class="text-box-content">
-      <h4>Logo</h4>
-      <p>In November of 2019, I had a conversation with my former coworker in which I explained I was taking classes in graphic & web design.  After hearing this she was eager for me to make a logo for her start up business.  At first I was trying to decline…... </p>
-      <a href="/worklogo" class="button">View Project</a>
-      </div>
+      <div class="text-box">
+        <div class="text-box-content">
+        <h4>Logo</h4>
+          <p>In November of 2019, I had a conversation with my former coworker in which I explained I was taking classes in graphic & web design.  After hearing this she was eager for me to make a logo for her start up business.  At first I was trying to decline…... </p>
+          <a href="/worklogo" class="button">View Project</a>
     </div>
+  </div>
 
 <!-- WORK RIGHT -->    
-  <div class="image-area-right">
-  <img src="/images/bookcover.jpg"/>
-  </div>
+  
   <div class="text-box">
     <div class="text-box-content">
-    <h4>Book Cover</h4>
-    <p>Highly impressed with the work I had done, and I admit I was confident in my skills but was ready to learn more.  Then, one day I had mentioned to her that I was working on a school project of making a book cover.</p>
-    <a href="/bookcover" class="button">View Project</a>
+      <h4>Book Cover</h4>
+        <p>Highly impressed with the work I had done, and I admit I was confident in my skills but was ready to learn more.  Then, one day I had mentioned to her that I was working on a school project of making a book cover.</p>
+        <a href="/bookcover" class="button">View Project</a>
+      </div>
+    </div>
+    <div class="image-area-right">
+      <img src="/images/bookcover.jpg"/>
     </div>
   </div>
-</div>
-</div>
+
+  
 
 <!-- CONTACT -->      
   <section class="contact">
